@@ -7,11 +7,13 @@ import About from './components/About'
 import Footer from './components/Footer'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <div>
+  <div class="main-box">
+      <div class="main-inner-box">
       <Info/>
       <About/>
       <Interests/>
       <Footer/>
+      </div>
   </div>
  ,
 )
